@@ -1,0 +1,3 @@
+choco: Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
+
+windeblotchris: iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/JJ8R4'))
